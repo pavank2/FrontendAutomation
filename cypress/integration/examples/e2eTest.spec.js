@@ -29,9 +29,11 @@ describe('Tests for Customer Details Page', function(){
        
         cy.visit(this.data.url);
         homePage.navigateToCorrectPage();
+        //Get the correct Page details from previous function
         cy.get('@productCategory').then(function(productCategory){
-         productPage.getMinPriceProducts(productCategory);
+         productPage.selectMinPriceProducts(productCategory);
         });
+
         productPage.checkOutToCart();
         checkoutPage.getProductsonCheckoutPage();
         checkoutPage.getAmountOnCheckoutPage();

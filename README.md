@@ -16,6 +16,12 @@ This E2E test does the following:
       5) Complete the payment
       6) Assert payment success. Test fails if payment has failed
  
+## Highlights
+
+- The project will execute on multiple browsers - Electron,Chrome,Edge.
+- The project is independent of any OS
+- Tests can be executed in parallel in Cypress using "cypress run --record --key=$key --parallel" 
+
 ## Configuration
 - node.js 16.10.0
 - npm 8.1.3
