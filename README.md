@@ -2,19 +2,10 @@
 
 ## Summary
 
-- The project has been implemented using Cypress Javascript Framework with Chai and Mocha Awesome supporting libraries.
-- Page Object Model (POM) design pattern has been used to implement the project.
-
-## Scenarios
-
-There is one E2E scenario as part of 1 spec file.
-This E2E test does the following:
-      1) Navigate to the right page based on current temperature
-      2) Select two cheapest products for our required category and add to cart
-      3) Assert selected products are displayed on the checkpage
-      4) Assert total price displayed is correct
-      5) Complete the payment
-      6) Assert payment success. Test fails if payment has failed
+- The project has been implemented using Cypress Javascript Framework with Chai and Mochawesome supporting libraries.
+- The project uses the standard Cypress Framework and utilities like Fixtures, Plugins, Custom commands, aliases
+- Functions for each Page of the UI are in support/pages
+- Reports are generated in "reports" directory
  
 ## Highlights
 
@@ -22,9 +13,17 @@ This E2E test does the following:
 - The project is independent of any OS
 - Tests can be executed in parallel in Cypress using "cypress run --record --key=$key --parallel" 
 
-## Configuration
-- node.js 16.10.0
-- npm 8.1.3
+## Scenarios
+
+There is one E2E scenario as part of 1 spec file.
+This E2E test does the following:
+     - 1) Navigate to the right page based on current temperature
+     - 2) Select two cheapest products for our required category and add to cart
+     - 3) Assert selected products are displayed on the checkpage
+     - 4) Assert total price displayed is correct
+     - 5) Complete the payment
+     - 6) Assert payment success. Test fails if payment has failed
+     
 
 ## Instructions to execute the Automation Suite
 
