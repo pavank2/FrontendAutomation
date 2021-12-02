@@ -1,0 +1,20 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+      "cy:run:electron" : "cypress run --browser electron --headed",
+      "cy:run:chrome": "cypress run --browser chrome --headed",
+      "cy:run:edge": "cypress run --browser edge --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.0.1"
+  }
+}

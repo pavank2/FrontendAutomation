@@ -1,0 +1,18 @@
+{
+    "defaultCommandTimeout":8000,
+    "pluginsFile": false,
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": true,
+        "html" : true,
+        "saveHtml": true
+    },
+    "video": false
+    
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://weathershopper.pythonanywhere.com/",
+  "moisturizersCategory": ["Aloe","Almond"],
+  "sunscreensCategory" : ["SPF-30","SPF-50"],
+  "cardDetails": {
+    "email": "dummymail@gmail.com",
+    "cardNumber" : "4242424242424242",
+    "expiry": "12/25",
+    "cvc" : "123",
+    "zipCode": "510000"
+  }
+
+}
