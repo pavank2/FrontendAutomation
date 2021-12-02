@@ -5,8 +5,7 @@ import ProductPage from "./ProductPage";
 /**
  * This class has functions required for the HomePage of the app
  */
-class HomePage {
-     
+class HomePage {    
     //Navigates to the right product page based on temperature
     navigateToCorrectPage(){  
         //Getting products data from fixture
@@ -25,7 +24,6 @@ class HomePage {
                 cy.get('a[href="/sunscreen"]').click();
                 cy.wrap(this.data.sunscreensCategory).as('productCategory');
             }
-
             // not handling temperature between 19 & 34 as it is never the case!!
         });
     }

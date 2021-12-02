@@ -9,7 +9,7 @@ Cypress.Commands.add('selectCheapestProduct', (product,selectedProductsList) => 
     cy.get('.btn.btn-primary').each(function ($el, index,$list) {         
         // 'onclick' attribute has both product name and price
         let textToParse = $el.attr('onclick'); 
-
+        
         //extract the product price from 'onclick' value               
         let price = parseInt(textToParse.slice(-4,-1),10);
 

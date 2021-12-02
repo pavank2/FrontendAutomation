@@ -17,13 +17,13 @@
 
 There is one E2E scenario as part of 1 spec file.
 This E2E test does the following:
-     - 1) Navigate to the right page based on current temperature
-     - 2) Select two cheapest products for our required category and add to cart
-     - 3) Assert selected products are displayed on the checkpage
-     - 4) Assert total price displayed is correct
-     - 5) Complete the payment
-     - 6) Assert payment success. Test fails if payment has failed
-     
+  1) Navigate to the right page based on current temperature    
+  2) Select two cheapest products for our required category and add to cart    
+  3) Assert selected products displayed on the checkout page match the selected products    
+  4) Assert total price displayed on the checkoutPage matches the actual total price      
+  5) Complete the payment    
+  6) Assert payment success. Test fails if payment has failed    
+
 
 ## Instructions to execute the Automation Suite
 

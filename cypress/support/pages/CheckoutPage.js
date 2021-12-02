@@ -3,7 +3,6 @@
 /**
  * This class has functions required for the Checkout Page
  */
-
 class CheckoutPage {
 
     getProductsonCheckoutPage(){

@@ -3,10 +3,8 @@
 /**
  * This class has functions required for the Product Page
  */
-
-
 class ProductPage {
-
+    
     selectMinPriceProducts(productCategory){
         let selectedProductsList = [];
         let totalPrice=0;
