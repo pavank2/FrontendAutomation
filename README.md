@@ -3,9 +3,9 @@
 ## Summary
 
 - The project has been implemented using Cypress Javascript Framework with Chai and Mochawesome supporting libraries.
-- The project uses the standard Cypress Framework and utilities like Fixtures, Plugins, Custom commands, aliases
-- Functions for each Page of the UI are in support/pages
-- Reports are generated in "reports" directory
+- The project uses the standard Cypress Framework and utilities like Fixtures, Plugins, Custom commands, aliases.
+- Functions for each Page of the UI are located in "cypress/support/pages path.
+- Reports are generated in "cypress/reports" directory
  
 ## Highlights
 
@@ -50,6 +50,6 @@ This E2E test does the following:
     
    Note: Test does not complete in Firefox because of Firefox CORS limitation with iFrames 
 
-4. HTML report of the latest execution can be seen at {PROJECT_HOME}/reports/index.html
+4. HTML report of the latest execution can be seen at {PROJECT_HOME}/cypress/reports/mochawesome.html
 
 If something doesn't work, please feel free to contact me :-)
