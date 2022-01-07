@@ -3,33 +3,23 @@
 ## Summary
 
 - The project has been implemented using Cypress Javascript Framework with Chai and Mochawesome supporting libraries.
-- The project uses the standard Cypress Framework and utilities like Fixtures, Plugins, Custom commands, aliases.
 - Functions for each Page of the UI are located in "cypress/support/pages path.
 - Reports are generated in "cypress/reports" directory
  
-## Highlights
 
-- The project will execute on multiple browsers - Electron,Chrome,Edge.
-- The project is independent of any OS
-- Tests can be executed in parallel in Cypress using "cypress run --record --key=$key --parallel" 
 
 ## Scenarios
 
-There is one E2E scenario as part of 1 spec file.
-This E2E test does the following:
-  1) Navigate to the right page based on current temperature    
-  2) Select two cheapest products for our required category and add to cart    
-  3) Assert selected products displayed on the checkout page match the selected products    
-  4) Assert total price displayed on the checkoutPage matches the actual total price      
-  5) Complete the payment    
-  6) Assert payment success. Test fails if payment has failed    
+Two tests have been automated as part of 1 spec file  
+1) Successful Login  
+2) Unsuccessful login
 
 
 ## Instructions to execute the Automation Suite
 
 1. On a NEW terminal, clone the Automation project to your local machine
 
-   - **git clone https://github.com/pavank2/CypressAutomation.git**
+   - **git clone https://github.com/pavank2/FrontendAutomation.git**
 
 2. Navigate to the Project folder and install the dependencies (already part of package.json)
 
