@@ -23,7 +23,7 @@ Two tests have been automated as part of 1 spec file
 
 2. Navigate to the Project folder and install the dependencies (already part of package.json)
 
-   - **cd CypressAutomation**
+   - **cd FrontendAutomation**
    - **npm init** (Go with the default values)
    - **npm install** (Installs cypress and other libraries)
 
