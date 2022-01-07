@@ -1,18 +1,17 @@
 {
   "name": "cypressproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "- The project has been implemented using Cypress Javascript Framework with Chai and Mochawesome supporting libraries.\r - The project uses the standard Cypress Framework and utilities like Fixtures, Plugins, Custom commands, aliases.\r - Functions for each Page of the UI are located in \"cypress/support/pages path.\r - Reports are generated in \"cypress/reports\" directory",
   "main": "index.js",
-  "scripts": { 
-      "tests" : "cypress run --browser electron --headed",
-      "tests:chrome": "cypress run --browser chrome --headed",
-      "tests:edge": "cypress run --browser edge --headed"
+  "scripts": {
+    "tests": "cypress run --browser electron --headed",
+    "tests:chrome": "cypress run --browser chrome --headed",
+    "tests:edge": "cypress run --browser edge --headed"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^8.7.0",
-    "cypress-iframe": "^1.0.1",
     "mochawesome": "^7.0.1",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^6.0.1"
