@@ -6,7 +6,7 @@
   "scripts": {
     "tests": "cypress run --browser electron --headed",
     "tests:chrome": "cypress run --browser chrome --headed",
-    "tests:edge": "cypress run --browser edge --headed"
+    "tests:firefox": "cypress run --browser firefox --headed"
   },
   "author": "",
   "license": "ISC",

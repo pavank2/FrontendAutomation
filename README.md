@@ -36,10 +36,8 @@ Two tests have been automated as part of 1 spec file
    OR
    - **npm run tests:chrome**
    OR
-    - **npm run tests:edge**
+    - **npm run tests:firefox**
     
-   Note: Test does not complete in Firefox because of Firefox CORS limitation with iFrames 
-
 4. HTML report of the latest execution can be seen at {PROJECT_HOME}/cypress/reports/mochawesome.html
 
 If something doesn't work, please feel free to contact me :-)
